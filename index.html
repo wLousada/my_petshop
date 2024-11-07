@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Petshop</title>
+</head>
+<body>
+    <header style="background-image: url(img/friendly-smart-basenji-dog-giving-his-paw-close-up-isolated-white.png);">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo-removebg-preview.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li> <!-- Nova aba Produtos -->
+                    <li><a href="login.html">Login</a></li> <!-- Nova aba Login -->
+                    <li><a href="cadastro.html">Cadastro</a></li> <!-- Nova aba Cadastro -->
+                    <li><a href="contato.html" class="btn">Contato</a></li>
+                    <li class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </li>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>My Petshop</h1>
+                    <p>Aqui você encontra vários produtos para o seu Pet</p>
+                    <a href="contato.html" class="btn">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <section class="faca-mais">
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Faça mais com My PetShop</h3>
+                <p>Cuidamos do seu pet com carinho e qualidade. Oferecemos serviços de banho, tosa, hospedagem e uma grande variedade de produtos para o bem-estar do seu animal. Proporcione a melhor experiência para seu amigo de quatro patas!</p>
+                <a href="contato.html" class="btn">Entrar em contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/Cat and dog-rafiki.png" alt="Faça mais">
+            </div>
+        </div>
+    </section>
+
+    <section class="facilidade">
+        <div class="container">
+            <div class="facilidade-img">
+                <img src="img/cat family-rafiki.png" alt="Facilidade">
+            </div>
+            <div class="facilidade-text">
+                <h4>Facilidade para seu Pet</h4>
+                <p>No My PetShop, cuidar do seu pet nunca foi tão fácil. Desde os serviços de higiene até a venda de produtos especiais, tudo é feito pensando na saúde e felicidade do seu companheiro. Entre em contato e veja como podemos ajudar o seu pet a viver melhor!</p>
+                <a href="contato.html" class="btn">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nossos clientes falam sobre os serviços e produtos do nosso Petshop.</p>
+            <div class="cards">
+                <!-- card item 1 -->
+                <div class="card-itens">
+                    <img src="img/undraw_Male_avatar_g98d-removebg-preview.png" alt="Adalto">
+                    <p class="nome-user">Nicolas</p>
+                    <p class="depoimento-user">“O atendimento do petshop é excepcional! Meu cachorro adorou o banho e tosa, e os produtos que comprei são de ótima qualidade. Super recomendo para quem quer o melhor para o seu pet!” Vale a pena o investimento!</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <!-- card item 2 -->
+                <div class="card-itens">
+                    <img src="img/undraw_Male_avatar_g98d-removebg-preview.png" alt="Arthur">
+                    <p class="nome-user">Arthur</p>
+                    <p class="depoimento-user">“Comprei ração e brinquedos para o meu gato e fiquei impressionado com a variedade e os preços. O atendimento também é ótimo, sempre muito atenciosos. Sem dúvida, o melhor petshop!”</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <!-- card item 3 -->
+                <div class="card-itens">
+                    <img src="img/undraw_Male_avatar_g98d-removebg-preview.png" alt="Daniel">
+                    <p class="nome-user">Yann</p>
+                    <p class="depoimento-user">“A hospedagem do meu cachorro foi perfeita! Ele ficou super confortável e bem cuidado durante minha viagem. Com certeza voltarei a utilizar os serviços e produtos do petshop.” Vale a pena o investimento!</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Desenvolvido pelo Grupo</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

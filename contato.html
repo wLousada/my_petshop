@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header style="background-image: url('img/adorable-kitty-with-monochrome-wall-her.png'); background-size: cover; background-position: center;">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo-removebg-preview.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li> <!-- Nova aba Produtos -->
+                    <li><a href="login.html">Login</a></li> <!-- Nova aba Login -->
+                    <li><a href="cadastro.html">Cadastro</a></li> <!-- Nova aba Cadastro -->
+                    <li><a href="contato.html" class="btn">Contato</a></li>
+                    <li class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </li>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Nos Contacte</h1>
+                    <p>Entre em contato e vamos agendar o seu atendimento</p>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <section class="contacto">
+        <div class="container">
+            <div class="contacto-info">
+                <div class="center">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                        <button class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Desenvolvido pelo Grupo</p>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
